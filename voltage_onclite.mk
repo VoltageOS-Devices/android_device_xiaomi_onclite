@@ -13,16 +13,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_onclite
+PRODUCT_NAME := voltage_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := onc-lite
+PRODUCT_MODEL := Redmi Y3
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys"
