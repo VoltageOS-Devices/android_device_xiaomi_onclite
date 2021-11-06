@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_onclite.mk
+    $(LOCAL_DIR)/voltage_onclite.mk
 
 COMMON_LUNCH_CHOICES := \
-	aosp_onclite-user \
-	aosp_onclite-userdebug \
-	aosp_onclite-eng
+	voltage_onclite-user \
+	voltage_onclite-userdebug \
+	voltage_onclite-eng
