@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
+# Voltage Build Type
+VOLTAGE_BUILD_TYPE := OFFICIAL
+
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
