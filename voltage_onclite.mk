@@ -18,9 +18,6 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 # Voltage Build Type
 VOLTAGE_BUILD_TYPE := OFFICIAL
 
-# Bootanimation
-TARGET_BOOT_ANIMATION_RES := 720
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := voltage_onclite
 PRODUCT_DEVICE := onclite

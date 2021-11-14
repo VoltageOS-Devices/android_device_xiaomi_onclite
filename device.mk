@@ -31,7 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=288
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES := 1280
 
 # Permissions
 PRODUCT_COPY_FILES += \
