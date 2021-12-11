@@ -22,7 +22,7 @@ VOLTAGE_BUILD_TYPE := OFFICIAL
 PRODUCT_NAME := voltage_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Y3
+PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT := "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys"
