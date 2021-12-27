@@ -17,6 +17,7 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Voltage Build Type
 VOLTAGE_BUILD_TYPE := OFFICIAL
+TARGET_BUILD_GRAPHENEOS_CAMERA = false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := voltage_onclite
