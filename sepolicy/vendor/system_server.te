@@ -3,3 +3,6 @@ typeattribute system_server system_executes_vendor_violators;
 # Input devices
 r_dir_file(system_server, idc_file);
 r_dir_file(system_server, keylayout_file);
+
+# Storage
+allow system_server sdcardfs:file { read };
