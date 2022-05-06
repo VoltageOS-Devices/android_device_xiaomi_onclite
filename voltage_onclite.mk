@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 # Inherit some common Voltage OS stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
+# Voltage Build Type
+VOLTAGE_BUILD_TYPE := OFFICIAL
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := voltage_onclite
 PRODUCT_DEVICE := onclite
